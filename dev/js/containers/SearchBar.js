@@ -21,7 +21,7 @@ class SearchBar extends React.Component {
 
   componentDidMount() {
     this.searchField.focus();
-    this.searchField.value = 'Hans Zimmer';
+    this.searchField.value = 'nella kharisma';
     this.inputOnChange({target: this.searchField});
   }
 
@@ -83,8 +83,8 @@ class SearchBar extends React.Component {
     let {visible, value} = this.state;
 
     return (
-      <div className="visual-bar-left-header">
-        <div className="search-bar">
+      <div className="visual-bar-left-header">logo1
+        <div className="search-bar">logo
           <div className="icon search-bar__magnifier-sign"></div>
           <input onChange={this.inputOnChange.bind(this)}
                  placeholder="Search"
