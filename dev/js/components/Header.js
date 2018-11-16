@@ -7,7 +7,7 @@ class Header extends React.Component {
   render() {
     return (
       <header id="header" className="clearfix">
-        <div className="header__left">
+        <div className="header__left">logo
           <SearchBar searchDelay={650}/>
         </div>
         <div className="header__right">
