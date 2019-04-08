@@ -39,7 +39,7 @@ class Artwork extends React.Component {
 
 function mapStateToProps(state) {
   return {
-    src: state.data.cover || 'http://placehold.it/300x300/fff/3cd2ce/?text=REACT.JS+PLAYER'
+    src: state.data.cover || 'https://img.icons8.com/color/200/000000/next.png'
   };
 }
 
